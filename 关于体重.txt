@@ -12,16 +12,13 @@ int main(void)
 	printf("You are easily worth that!If platinum prices drop .\n");
 	printf("eat more to maintain your value.\n");
 	if (weight >= 200)
-	{
-		printf("You are a little fat.");
-	}
+	{printf("You are a little fat.");
+                 }
 	else if (weight <= 100)
-	{
-		printf("You are a little thin.");
+	{printf("You are a little thin.");
 	}
 	else
-	{
-		printf("You are ok.");
+	{printf("You are ok.");
 	}
 	return 0;
 }
